@@ -1,0 +1,23 @@
+{
+  "name": "node-async",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "Rockonsoft",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^11.9.5",
+    "tslint": "^5.13.0",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@types/minimist": "^1.2.0",
+    "firebase-admin": "^8.4.0",
+    "minimist": "^1.2.0",
+    "moment": "^2.24.0"
+  }
+}
